@@ -1,5 +1,5 @@
-from people import get_employees
-from salary  import calculate_salary
+from application.people import get_employees
+from application.salary  import calculate_salary
 from datetime import datetime
 
 d = datetime.today()
@@ -12,4 +12,4 @@ def main_function():
 
 if __name__ == '__main__':
     main_function()
-    print(f' datetime function - {d}')
+    print(f' datetime function executed - {d}')
